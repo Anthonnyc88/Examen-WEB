@@ -1,0 +1,25 @@
+<body>
+<div class="parte3">
+  <form action="">
+
+    <div id="TP1" style="display: block; width: 1000px; height:500px;">
+      <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType" (chartHover)="chartHovered($event)"
+        (chartClick)="chartClicked($event)"></canvas>
+    </div>
+
+
+    <h3>Bloques conocidos</h3>
+    <h5 class="">${{data.F2Pool}}</h5>
+    <h5 class="">${{data.Bixin}}</h5>
+    <h5 class="">${{data.Unknown}}</h5>
+    <h5 class="">${{data.SlushPool}}</h5>
+    <h5 class="">${{data.ViaBTC}}</h5>
+    <h5 class="">${{data.AntPool}}</h5>
+    <h5 class="">${{data['BTC.com']}}</h5>
+    <h5 class="">${{data['Bitcoin.com']}}</h5>
+    <h5 class="">${{data['BTC.TOP']}}</h5>
+    <h5 class="">${{data['BTCC Pool']}}</h5>
+
+  </form>
+</div>
+</body>

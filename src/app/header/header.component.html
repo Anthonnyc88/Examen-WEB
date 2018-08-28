@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <h2 id="H2">Estadisticas Populares</h2>
+  <div class="container">
+    <form action="Precio de Mercado">
+      <h4>Precio de Mercado</h4>
+      <div *ngFor="let data of dataprecio; let last = last">
+        <h5 class="" *ngIf="last === true">${{data.y}}</h5>
+      </div>
+    </form>
+    <form class="Tamaño de bloque promedio">
+      <h4>Tamaño de bloque promedio</h4>
+      <div *ngFor="let data2 of databloque; let last = last">
+          <h5 class="" *ngIf="last === true">${{data2.y}}</h5>
+        </div>
+    </form>
+    <form class="Transactions per Day">
+      <h4>Transactions per Day</h4>
+      <div *ngFor="let data3 of datatrans; let last = last">
+          <h5 class="" *ngIf="last === true">${{data3.y}}</h5>
+        </div>
+    </form>
+    <form class="Tamaño Mempool">
+      <h4>Tamaño Mempool</h4>
+      <div *ngFor="let data4 of datatama; let last = last">
+          <h5 class="" *ngIf="last === true">${{data4.y}}</h5>
+        </div>
+    </form>
+
+
+  </div>
+</body>
+
+</html>

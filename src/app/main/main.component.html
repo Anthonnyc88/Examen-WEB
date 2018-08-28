@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=}, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="parte2">
+    <div action="">
+      <h3 id="H2">Estadisticas Monetarias</h3>
+      <form action="Block Summary">
+        <H3>Block Summary</H3>
+            <h5 class="">${{data.timestamp}}</h5>
+            <h5 class="">${{data.market_price_usd}}</h5>
+            <h5 class="">${{data.hash_rate}}</h5>
+            
+      </form>
+      <form action="Transaction Summay">
+        <H3>Transaction Summay</H3>
+        <h5 class="">${{data.n_blocks_mined}}</h5>
+        <h5 class="">${{data.minutes_between_blocks}}</h5>
+        <h5 class="">${{data.totalbc}}</h5>
+        <h5 class="">${{data.n_blocks_total}}</h5>
+        <h5 class="">${{estimated_transaction_volume_usd}}</h5>
+        
+      </form>
+      <form action="Resumen del mercado">
+          <h5 class="">${{data.total_fees_btc}}</h5>
+          <h5 class="">${{data.n_btc_mined}}</h5>
+          <h5 class="">${{data.n_tx}}</h5>
+
+      </form>
+      <form action="Coste de la mineria">
+        <H3>Coste de la mineria</H3>
+        <h5 class="">${{data.blocks_size}}</h5>
+        <h5 class="">${{data.miners_revenue_usd}}</h5>
+        <h5 class="">${{data.nextretarget}}</h5>
+        <h5 class="">${{data.difficulty}}</h5>
+
+      </form>
+      <form action="Tasa de hash y consumo energético">
+        <H3>Tasa de hash y consumo energético</H3>
+        <h5 class="">${{data.estimated_btc_sent}}</h5>
+        <h5 class="">${{data.miners_revenue_btc}}</h5>
+
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
