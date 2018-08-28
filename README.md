@@ -1,3 +1,11 @@
+ # Primer examen de Diseño de Web
+ # Estudiantes
+ # Anthonny Calderón Espinoza
+ # Gabriel Quesada
+ # Consideraciones del Examen antes de ejecutar
+ # Añada la extensión  porque sin eso las appis no van a funcionar
+ # https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related                          # Instale el npm install, porque sin las librerias no funcionan
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
